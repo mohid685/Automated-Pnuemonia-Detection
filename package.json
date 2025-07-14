@@ -1,0 +1,16 @@
+{
+  "name": "pneumonia-detection",
+  "version": "1.0.0",
+  "description": "Web interface for pneumonia detection system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

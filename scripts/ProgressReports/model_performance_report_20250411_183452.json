@@ -1,0 +1,51 @@
+{
+    "metadata": {
+        "evaluation_date": "2025-04-11T18:30:18.489514",
+        "device_used": "cpu",
+        "class_names": [
+            "PNEUMONIA",
+            "NORMAL"
+        ],
+        "models_directory": "C:/AI-PROJECT-25/trainedModels"
+    },
+    "training_parameters": {
+        "model_architecture": "CustomDiseaseClassifier",
+        "num_classes": 2,
+        "epochs": 10,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss_function": "CrossEntropyLoss",
+        "batch_size": 32,
+        "image_size": 224
+    },
+    "model_performance": {
+        "model1.pth": {
+            "overall_accuracy": 84.78,
+            "total_samples": 624
+        },
+        "model2.pth": {
+            "overall_accuracy": 85.58,
+            "total_samples": 624
+        },
+        "model3.pth": {
+            "overall_accuracy": 82.69,
+            "total_samples": 624
+        },
+        "model4.pth": {
+            "overall_accuracy": 76.44,
+            "total_samples": 624
+        },
+        "model5.pth": {
+            "overall_accuracy": 76.92,
+            "total_samples": 624
+        },
+        "model6.pth": {
+            "overall_accuracy": 81.57,
+            "total_samples": 624
+        },
+        "model7.pth": {
+            "overall_accuracy": 82.69,
+            "total_samples": 624
+        }
+    }
+}
